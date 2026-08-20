@@ -1,0 +1,8 @@
+feature_path: /path/to/embeddings
+feature_dim: 1536
+epochs: 50
+output: output
+checkpoint: ""
+hidden_size_attention: 128
+hidden_sizes_mlp: [128,64]
+

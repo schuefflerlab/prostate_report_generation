@@ -1,0 +1,20 @@
+embedding_paths:
+  - /path/to/embeddings
+text_path: null
+split_file: null
+model: coca
+emb_samples: 4800
+nccl_timeout: 1800
+workers: 8
+batch_size: 8
+epochs: 100
+lr: 0.00005
+report_to: wandb
+log_every_n_steps: 10
+save_frequency: 100
+save_captions: true
+resume: null
+experiment: "experiment_name"
+visualize_attn: false
+slide_path: null
+eval_frequency: 100

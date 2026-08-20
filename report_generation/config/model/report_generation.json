@@ -1,0 +1,41 @@
+{
+  "text_cfg": {
+    "context_length": 288,
+    "vocab_size": 10142,
+    "width": 768,
+    "heads": 12,
+    "layers": 12,
+    "mlp_ratio": 4.0,
+    "embed_cls": true,
+    "pad_id": 0,
+    "pool_type": "last",
+    "proj_bias": false,
+    "output_tokens": true
+  },
+  "case_cfg": {
+    "width": 768,
+    "output_dim": 768,
+    "heads": 12,
+    "layers": 6,
+    "mlp_ratio": 4.0,
+    "embed_cls": true,
+    "pad_id": 0,
+    "pool_type": "first",
+    "attentional_pool": false,
+    "proj_bias": false,
+    "output_tokens": true
+  },
+  "multimodal_cfg": {
+    "width": 768,
+    "context_length": 288,
+    "vocab_size": 10142,
+    "mlp_ratio": 4,
+    "layers": 12,
+    "dim_head": 64,
+    "heads": 12,
+    "n_queries": 256,
+    "attn_pooler_heads": 8,
+    "embed_cls": true,
+    "output_tokens": true
+  }
+}
